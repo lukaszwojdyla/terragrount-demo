@@ -1,0 +1,140 @@
+{
+  "version": 4,
+  "terraform_version": "1.7.5",
+  "serial": 19,
+  "lineage": "9281011b-596f-dbc2-391c-b92144f8d9d6",
+  "outputs": {},
+  "resources": [
+    {
+      "module": "module.databases",
+      "mode": "managed",
+      "type": "terraform_data",
+      "name": "databases",
+      "provider": "provider[\"terraform.io/builtin/terraform\"]",
+      "instances": [
+        {
+          "index_key": "webapp",
+          "schema_version": 0,
+          "attributes": {
+            "id": "4c620b04-4d3d-e701-f60f-8f0f976cc1f9",
+            "input": {
+              "value": "webapp",
+              "type": "string"
+            },
+            "output": {
+              "value": "webapp",
+              "type": "string"
+            },
+            "triggers_replace": null
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "module": "module.shared",
+      "mode": "managed",
+      "type": "terraform_data",
+      "name": "subnet",
+      "provider": "provider[\"terraform.io/builtin/terraform\"]",
+      "instances": [
+        {
+          "index_key": "asia",
+          "schema_version": 0,
+          "attributes": {
+            "id": "ddc7cbb6-f5b2-b41d-a361-d8804304f011",
+            "input": {
+              "value": "asia",
+              "type": "string"
+            },
+            "output": {
+              "value": "asia",
+              "type": "string"
+            },
+            "triggers_replace": null
+          },
+          "sensitive_attributes": []
+        },
+        {
+          "index_key": "ue",
+          "schema_version": 0,
+          "attributes": {
+            "id": "0ab622d1-3e17-271f-ccc2-83344a320a3c",
+            "input": {
+              "value": "ue",
+              "type": "string"
+            },
+            "output": {
+              "value": "ue",
+              "type": "string"
+            },
+            "triggers_replace": null
+          },
+          "sensitive_attributes": []
+        },
+        {
+          "index_key": "us",
+          "schema_version": 0,
+          "attributes": {
+            "id": "43d21c06-44bd-da07-3919-b284159dd3ca",
+            "input": {
+              "value": "us",
+              "type": "string"
+            },
+            "output": {
+              "value": "us",
+              "type": "string"
+            },
+            "triggers_replace": null
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "module": "module.webapp",
+      "mode": "managed",
+      "type": "terraform_data",
+      "name": "accounts",
+      "provider": "provider[\"terraform.io/builtin/terraform\"]",
+      "instances": [
+        {
+          "index_key": "gar-sa",
+          "schema_version": 0,
+          "attributes": {
+            "id": "c39ddd08-2665-e48c-ef65-2a0d0c7f400a",
+            "input": {
+              "value": "gar-sa",
+              "type": "string"
+            },
+            "output": {
+              "value": "gar-sa",
+              "type": "string"
+            },
+            "triggers_replace": null
+          },
+          "sensitive_attributes": []
+        },
+        {
+          "index_key": "webapp-sa",
+          "schema_version": 0,
+          "attributes": {
+            "id": "b9b9241b-0224-5ddb-a9bf-3b5dedbb245a",
+            "input": {
+              "value": "webapp-sa",
+              "type": "string"
+            },
+            "output": {
+              "value": "webapp-sa",
+              "type": "string"
+            },
+            "triggers_replace": null
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    }
+  ],
+  "check_results": null
+}
+
