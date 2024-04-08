@@ -1,3 +1,5 @@
 .terraform
 buckets/
 .terragrunt-cache
+*.tfstate
+state.json
